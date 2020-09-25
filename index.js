@@ -7,7 +7,7 @@ appDiv.innerHTML = convertStringintoLeet("Let's have some fun.");
 
 function convertStringintoLeet (source)
 {
-    let sourceArray = source.split();
+    let sourceArray = source.split('');
     return sourceArray.reduce((total, amount) => {
         switch (amount) {
             case 'a':
@@ -35,6 +35,6 @@ function convertStringintoLeet (source)
                 total.push(amount)
         }
         return total;
-    }, []).join();
+    }, []).join('');
 }
 
