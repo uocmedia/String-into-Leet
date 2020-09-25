@@ -10,25 +10,25 @@ function convertStringintoLeet (source)
     let sourceArray = source.split('');
     return sourceArray.reduce((total, amount) => {
         switch (amount) {
-            case 'a':
+            case 'a' || 'A':
                 total.push('4');
                 break;
-            case 'e':
+            case 'e' || 'E':
                 total.push('3');
                 break;
-            case 'i':
+            case 'i' || 'I':
                 total.push('1');
                 break;
-            case 'o':
+            case 'o' || 'O':
                 total.push('0');
                 break;
-            case 's':
+            case 's' || 'S':
                 total.push('5');
                 break;
-            case 't':
+            case 't' || 'T':
                 total.push('7');
                 break;
-            case 'b':
+            case 'b' || 'B':
                 total.push('5');
                 break;
             default:
