@@ -8,33 +8,33 @@ appDiv.innerHTML = convertStringintoLeet("Let's have some fun.");
 function convertStringintoLeet (source)
 {
     let sourceArray = source.split('');
-    return sourceArray.reduce((total, amount) => {
-        switch (amount) {
+    return sourceArray.reduce((all, element) => {
+        switch (element) {
             case 'a' || 'A':
-                total.push('4');
+                all.push('4');
                 break;
             case 'e' || 'E':
-                total.push('3');
+                all.push('3');
                 break;
             case 'i' || 'I':
-                total.push('1');
+                all.push('1');
                 break;
             case 'o' || 'O':
-                total.push('0');
+                all.push('0');
                 break;
             case 's' || 'S':
-                total.push('5');
+                all.push('5');
                 break;
             case 't' || 'T':
-                total.push('7');
+                all.push('7');
                 break;
             case 'b' || 'B':
-                total.push('5');
+                all.push('5');
                 break;
             default:
-                total.push(amount)
+                all.push(element)
         }
-        return total;
+        return all;
     }, []).join('');
 }
 
