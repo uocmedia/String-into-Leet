@@ -13,9 +13,9 @@ Replace certain letters with the mapping below:
 
 Examples
 
-Let's have some fun. -> L37'5 h4v3 50m3 fun.
-C is for cookie, that's good enough for me -> C 15 f0r c00k13, 7h47'5 g00d 3n0ugh f0r m3
-By the power of Grayskull! -> By 7h3 p0w3r 0f Gr4y5kull!
+# Let's have some fun. -> L37'5 h4v3 50m3 fun.
+# C is for cookie, that's good enough for me -> C 15 f0r c00k13, 7h47'5 g00d 3n0ugh f0r m3
+# By the power of Grayskull! -> By 7h3 p0w3r 0f Gr4y5kull!
 
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-77ezxo)
